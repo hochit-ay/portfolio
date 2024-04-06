@@ -1,0 +1,219 @@
+:root {
+    --yellow: #fdeeb5;
+    --blue: #02496e;
+    --pink: #dd7a7c;
+}
+
+
+/* STYLING THE SKIP LINK */
+.skip {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip a {
+    padding: 10px;
+    position: absolute;
+    top: -50px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip a:focus {
+    outline: 5px solid #0D65D8;
+    top: 0;
+    left: 0;
+}
+
+
+/* STYLING HOMEPAGE BUTTON*/
+.btn-warning {
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+    color: var(--blue) !important;
+}
+
+/* STYLING NAV BAR */
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: var(--blue) !important;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.active {
+    color: var(--pink) !important;
+}
+
+/* HOMEPAGE BANNER */
+.home-banner-text-h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--pink);
+}
+
+.home-banner-text-p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--blue);
+}
+
+
+.home-banner-img {
+  position: relative;
+}
+
+.home-banner-graphic, .home-banner-stamp {
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+}
+
+/* ABOUT */
+.about-h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--blue);
+}
+
+
+.about-h3 {
+    font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: var(--blue);
+}
+
+.bg-brushstroke-right {
+    position:absolute;
+    z-index: -999;
+    right:0px;
+    top:800px;
+}
+
+.bg-brushstroke-left {
+    position:absolute;
+    z-index: -999;
+    left:-30px;
+    top:1005px;
+}
+
+.about-p {
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.service-h4 {
+    font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: var(--blue);
+}
+
+.service-list {
+    font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  list-style: none;
+}
+
+/* PORTFOLIO */
+.portfolio-h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--blue);
+}
+
+.overlay-text {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;}
+
+
+/* PORTFOLIO PROJECT */
+.back-button {
+font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-color: white!important;
+    color: var(--blue) !important;}
+
+
+
+.project-h1, .project-h5   {font-family: "Arvo", serif;
+font-weight: 400;
+font-style: normal;
+  color: var(--blue);
+} 
+
+.project-h4 {
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        color: var(--blue);
+      }
+
+  .role-list {
+        font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+          }
+
+.project-p{
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+
+/* CONTACT */
+
+.contact-h1 {  font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--blue);}
+
+.contact-p { font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;}
+
+.contact-icon{ color: var(--pink);}
+
+.contact-link {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--blue);
+}
+
+/* FOOTER */
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--blue);
+    font-size: 0.8rem;
+    margin-bottom: 0;
+background-color: #f8f9fa;}
+
+.footer-icon {color: var(--blue) !important;}

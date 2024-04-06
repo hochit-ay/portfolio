@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+ <!-- CSS -->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- CSS ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- BOOTSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<!-- AOS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+
+    <!-- SKIP TO MAIN CONTENT -->
+    <ul class="skip">
+        <li>
+            <a href="#main-content" aria-label="Skip to Main Content">
+                Skip to Main Content
+            </a>
+        </li>
+    </ul>   
+
+
+    <!-- NAV BAR -->
+    <nav class="navbar shadow-none navbar-expand-lg navbar-light bg-light col-12" role="menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" role="link">
+
+                <picture class="logo">
+                    <source media="(max-width:991px)" srcset="images/logo-mobile.png">
+                    <source media="(max-width:1920px)" srcset="images/logo-web.png">
+                    <img src="images/logo-mobile.png" alt="Logo" width="230" class="ms-sm-3 ms-md-5 ms-lg-5">
+                </picture>
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"  role="menuitem">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" role="menuitem">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html" role="menuitem">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html" role="menuitem">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" role="menuitem">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container min-vh-100">
+    <h1 class="about-h1 text-center mt-3">About</h1>
+
+
+
+
+        <!-- PROFILE PICTURE -->
+
+    
+        
+
+        <div role="complementary">
+
+            <picture class="about-propic" itemscope itemtype="https://schema.org/Person">
+
+                <source media="(max-width:769px)" srcset="images/about-propic-mobile.png">
+
+                <source media="(max-width:1920px)" srcset="images/about-propic-web.png">
+
+                <img src="images/about-propic-mobile.png" alt="Profile Picture" class="img-fluid mx-auto d-block align-self-center my-3 animate__animated animate__fadeIn animate__slow" aria-label="Profile Picture">
+            </picture>
+
+        </div>
+
+
+        <h3 class="about-h3 text-center mt-3">Dorothy Au-Yeung</h3>
+
+<!-- MAIN CONTENT -->
+        <div id="main-content" itemscope itemtype="http://schema.org/WebPage">
+        <p class="about-p text-center mt-3 p-3" itemprop="mainContentOfPage">Dorothy is a versatile graphic designer with extensive experience in the
+            field, a passion for drawing and a background in fine art.
+            <br>
+            She has also honed her skills as a bespoke artist, specializing in hand-painting techniques.
+            <br>
+            Her artistic journey has led her to work with renowned luxury brands, where her expertise in crafting has
+            been highly valued.
+            <br>
+            Based in both Hong Kong and Ottawa, Dorothy brings a unique blend of cultural influences to her work.</p>
+    
+         <!-- BACKGROUND GRAPHIC - RIGHT -->
+        <div data-aos="fade-down-left" class="bg-brushstroke-right">
+            <picture>
+                <source media="(max-width:769px)" srcset="images/aos-right-mobile.png">
+    
+                <source media="(max-width:1920px)" srcset="images/aos-right-web.png">
+    
+                <img src="images/aos-right-mobile.png" alt="Brushstroke" class="img-fluid" width="400">
+            </picture>
+        </div>
+
+
+<!-- GRAPHIC FOR SERVICES - TOP -->
+
+        <picture class="service-top">
+            <source media="(max-width:769px)" srcset="images/about-service-top-mobile.png">
+            <source media="(max-width:1920px)" srcset="images/about-service-top-web.png">
+            <img src="images/about-service-top-mobile.png" alt="Service Graphic" class="img-fluid mx-auto d-block mt-4">
+        </picture>
+    
+        <!-- BACKGROUND GRAPHIC - LEFT -->
+        <div data-aos="fade-up-left" class="bg-brushstroke-left d-none d-md-block d-lg-block">
+            <picture>
+                <source media="(max-width:769px)" srcset="images/aos-left-mobile.png">
+    
+                <source media="(max-width:1920px)" srcset="images/aos-left-web.png">
+    
+                <img src="images/aos-right-mobile.png" alt="Brushstroke" class="img-fluid" width="400">
+            </picture>
+        </div>
+
+        <!-- SERVICES -->
+        <h4 class="service-h4 text-center mt-3">Services</h4>
+        <p class="service-list text-center mt-3" itemprop="mainContentOfPage">
+            Print Design
+            <br>
+            Website Design
+            <br>
+            Branding & Identity
+            <br>
+            Publication Design
+            <br>
+            Packaging Design
+            <br>
+            Illustration
+            <br>
+            Customization Painting
+        </p>
+
+<!-- GRAPHIC FOR SERVICES - BOTTOM -->
+        <picture class="service-bottom">
+            <source media="(max-width:769px)" srcset="images/about-service-bottom-mobile.png">
+            <source media="(max-width:1920px)" srcset="images/about-service-bottom-web.png">
+            <img src="images/about-service-bottom-mobile.png" alt="Service Graphic"
+                class="img-fluid mx-auto d-block mt-3 mb-5">
+        </picture>
+</div>
+</div>
+    
+    
+    
+
+
+<!-- FOOTER -->
+<footer class="text-center py-4" role="contentinfo">
+
+    <p> &copy; Copyright 2024 Dorothy Au-Yeung </p>
+
+    <div class="footer-icon">
+        <a href="https://www.instagram.com/dorodoll/" role="link"><i class="bi bi-instagram align-self-center fs-3 mx-1 footer-icon"></i></a>
+        <a href="https://www.linkedin.com/in/dorothy-au-yeung-083001157/" role="link"><i class="bi bi-linkedin align-self-center fs-3 mx-1 footer-icon"></i></a>
+    </div>
+
+</footer>
+
+<!-- AOS -->
+<script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
